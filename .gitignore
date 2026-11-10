@@ -1,0 +1,21 @@
+# JetBrains resources must never be checked into this repository
+localization-zh/
+**/localization-zh/
+*.jar
+*.zip
+*.dmg
+*.app/
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+dist/
+build/
+
+# Mac / IDE
+.DS_Store
+.idea/
