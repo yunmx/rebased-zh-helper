@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rebased-zh-helper"
+version = "0.1.0"
+description = "Local compatibility checker and disk-install packaging helper for Rebased Chinese localization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Community contributors"}]
+dependencies = []
+
+[project.scripts]
+rebased-zh-helper = "rebased_zh_helper.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
