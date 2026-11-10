@@ -11,7 +11,7 @@ I have confirmed that the Simplified Chinese language pack from IntelliJ IDEA (v
 
 Could Rebased consider improving language-pack discovery and documenting a supported, properly licensed localization workflow? There is an existing discussion in #384. JetBrains' distribution/license restrictions should be reviewed before bundling any language resources.
 
-I have prepared an **open-source local compatibility helper** (no JetBrains binaries, translations, or redistributed plugin archives). Repo: https://github.com/zhaozhxcn/rebased-zh-helper
+I have prepared an **open-source local compatibility helper** (no JetBrains binaries, translations, or redistributed plugin archives). Repo: https://github.com/yunmx/rebased-zh-helper
 
 Thanks for considering this!
 
